@@ -1,0 +1,52 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+}
+
+input, textarea {
+    margin-top: .25rem;
+}
+
+input {
+    height: 1.75rem;
+}
+
+.contact-form {
+    position: relative;
+    display: flex;
+    width: 30rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #232323;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px black;
+    text-transform: capitalize;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 27%;
+    width: 100%;
+}
+
+form button {
+    background-color: pink;
+    width: 50%;
+    align-self: center;
+}
+
+.banner-active {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}

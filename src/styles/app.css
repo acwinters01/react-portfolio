@@ -1,0 +1,65 @@
+.home {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title .subtitle {
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.classList {
+    position: relative;
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.classList span {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 6rem;
+    height: .25rem;
+}
+
+.classList p {
+    position: relative;
+    align-self: start;
+    margin: 0;
+    bottom: 1.5rem;
+}
+
+.classList span:hover {
+    border-radius: .25rem;
+    font-weight: 900;
+    background-color: pink;
+    transition: ease-in .5s;
+}
+
+.active-link {
+    color: pink;
+    font-weight: 900;
+}
+
+.classList .active-link span {
+    border-radius: .25rem;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+    transition: ease-in .5s;
+}
