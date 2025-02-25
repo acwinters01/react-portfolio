@@ -7,7 +7,7 @@ export const Hero = (props) => {
         <>
             <div className='title'>
                 <h1 className='name'>Alexandra Winters</h1>
-                <h4 className='subtitle'>Front-End Developer / Graphic Designer</h4>
+                <h4 className='subtitle'>Front-End Developer</h4>
             </div>
         </>
     );

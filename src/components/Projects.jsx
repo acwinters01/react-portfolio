@@ -206,7 +206,6 @@ export const Projects = (props) => {
             trigger.refresh();
         };
 
-        
         ScrollTrigger.addEventListener("scrollEnd", () => scrollToOffset(scrub.vars.offset));
 
         const scrollToOffset = (offset) => {
