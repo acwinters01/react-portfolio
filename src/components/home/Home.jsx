@@ -1,8 +1,8 @@
 import React from 'react';
-import { Navigation } from '../components/Navbar';
-import { Hero } from '../components/HeroSection';
-import { ProjectsPage } from './ProjectsPage.jsx';
-import '../styles/home.css'
+import { Navigation } from './Navbar.jsx';
+import { Hero } from './HeroSection.jsx';
+import { ProjectsPage } from '../projects/ProjectsPage.jsx';
+import '../../styles/home.css'
 
 export const Home = (props) => {
 

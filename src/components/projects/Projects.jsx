@@ -4,7 +4,7 @@ import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ProjectCard } from './ProjectCard';
-import '../styles/projects.css'
+import '../../styles/projects.css'
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 

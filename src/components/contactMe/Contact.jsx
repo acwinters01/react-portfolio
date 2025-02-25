@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Navigation } from '../components/Navbar';
-import { Hero } from '../components/HeroSection';
-import { ContactForm } from '../components/ContactForm';
+import { Navigation } from '../home/Navbar';
+import { Hero } from '../home/HeroSection';
+import { ContactForm } from './ContactForm';
 import { Outlet } from "react-router";
-import '../styles/contact.css';
+import '../../styles/contact.css';
 
 
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Navigation } from '../components/Navbar';
-import { Hero } from '../components/HeroSection';
+import { Navigation } from './home/Navbar';
+import { Hero } from './home/HeroSection';
 import '../styles/aboutme.css';
 
 export const AboutMe = (props) => {
